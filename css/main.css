@@ -1,0 +1,51 @@
+#main{
+  position: fixed; /*usamos fixed para fijar nuestro contenedor a la parte superior central*/
+  top:0;
+  left:19%;
+}
+.box{
+  width: 200px;
+  height: 300px;
+  background-color: #FAFAFA;
+  box-shadow: 2px 2px 5px #999; /*investigamos que con box-shadow podemos agregarle sombras*/
+  float: left; /*hicimos que los elemntos flotaran a la izquierda*/
+  text-align: center; /*centramos todos elemntos del box incluso los icons ya que también funcionan como fuentes*/
+  margin:7px; /*pusimo un margen para separar las cajas*/
+  padding-top:20px; /*le pusimos padding para bajar las imagenes*/
+  color:#6C6B6B;
+}
+.box:hover{ /*aplicamos el estado hover a la clase box que para pasar el mouse se modifique*/
+  width: 210px;
+  height: 310px;
+  background-color: white;
+  color: #C6DEF2;
+}
+.box:hover h6{
+  color:#6C6B6B; /*nos aseguramos que al hacer hover el h6 no se modifique */
+}
+
+.font{
+  font-family: 'Ubuntu Condensed', sans-serif;
+  text-align: center;
+}
+ div p {
+   font-family: 'PT Sans', sans-serif;
+   text-align: center;
+ }
+ /*dandole tamaño a los iconos*/
+ .icon-spoon-knife{
+   font-size: 50px;
+ }
+ .icon-local_cafe{
+   font-size: 50px;
+ }
+ .icon-heart-stroke{
+   font-size: 50px;
+ }
+ .icon-ruby{
+   font-size: 50px;
+ }
+.icon-compass{
+  font-size: 50px;
+  text-align: center;
+}
